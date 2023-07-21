@@ -42,7 +42,7 @@ public class browserSetup {
 
     public static void waitScreen()
     {
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public static void closeBrowser()
